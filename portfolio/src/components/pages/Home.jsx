@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Photo from "../../images/amar.png";
+import photo from "../../images/amar.png";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         <h2 className="heading">Home</h2>
         <div className="row">
           <div className="col-sm-4 text-center">
-            <img src={Photo} alt="photo" className="photo" />
+            <img src={photo} alt="" className="photo" />
           </div>
           <div className="col-sm-8">
             {" "}
@@ -18,7 +18,7 @@ const Home = () => {
               working as a researcher at University of Innsbruck. My research
               area includes semantic web, knowledg graph, ontologies, SPARQL
               etc. Currently, I am working on{"  "}
-              <a href="https://smashhit.eu/" target="_blank">
+              <a href="https://smashhit.eu/" target="_blank" rel="noreferrer">
                 SamshHit
               </a>
               {"  "}
