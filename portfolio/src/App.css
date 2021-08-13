@@ -1,0 +1,51 @@
+body {
+  /* background-image: url("./images/portfolio-background.gif");
+  background-size: cover; */
+  background: url(./images/portfolio-background.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+.navbar-light {
+  background-color: green;
+}
+.container-fluid .navbar-brand {
+  color: white;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.paragraph-text {
+  text-align: justify;
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+}
+.photo {
+  border-radius: 50%;
+}
+.contact {
+  padding-top: 100px;
+}
+.contact .row {
+  padding-top: 5px;
+}
+.home .row {
+  padding-top: 50px;
+}
+.portfolio .row {
+  padding-top: 50px;
+}
+.card {
+  background-color: transparent;
+  border: solid;
+  border-radius: 10px;
+  height: 250px;
+}
