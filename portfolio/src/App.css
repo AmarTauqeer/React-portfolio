@@ -54,10 +54,10 @@ body {
   height: 250px;
   border-radius: 10px;
 }
+
 .card-image:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
-
   cursor: pointer;
 }
 .card {
@@ -66,4 +66,43 @@ body {
   border-color: greenyellow;
   border-radius: 10px;
   height: 500px;
+  color: black;
+}
+.prod-image {
+  background-color: transparent;
+  width: 100%;
+  height: 60%;
+}
+.prod-image:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor: pointer;
+  border-radius: 10px;
+  border: solid;
+}
+.product-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+.product-list .row {
+  padding-top: 50px;
+}
+
+@media (min-width: 600px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
