@@ -15,8 +15,8 @@ const About = () => {
         <h4 className="heading mb-2">Professional Summary</h4>
 
         <p className="paragraph-text">
-          Node, Express, React, MonogoDB,Middleware, JWT, Passport,
-          LocalStrategy, Local Storage, JavaScript, Jquery, HTML5, Web
+          Django, Flask, Node, Express, React, MonogoDB,Middleware, JWT,
+          Passport, LocalStrategy, Local Storage, JavaScript, Jquery, HTML5, Web
           Programming Skills, E-Commerce, Asp.net MVC, C#, Entity framework, SQL
           Server, SQL server Management Studio, Linq, SAP Crystal Reports
           ,Database first approach, Code first approach. To be able to work for

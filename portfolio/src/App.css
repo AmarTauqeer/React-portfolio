@@ -1,16 +1,18 @@
 body {
   /* background-image: url("./images/portfolio-background.gif");
   background-size: cover; */
-  background: url(./images/portfolio-background.jpg) no-repeat center center
+  /* background: url(./images/portfolio-background.jpg) no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  color: black;
+  background-size: cover; */
+  color: whitesmoke;
+  background-color: #806353;
 }
 .navbar-light {
-  background-color: green;
+  background-color: #7a472a;
+  /* background-color: lightseagreen; */
 }
 .container-fluid .navbar-brand {
   color: white;
@@ -27,6 +29,10 @@ body {
   text-align: justify;
   font-size: 18px;
   padding: 20px 10px 0 10px;
+}
+.paragraph-text a {
+  color: whitesmoke;
+  font-weight: 700;
 }
 .photo {
   border-radius: 50%;
@@ -66,7 +72,10 @@ body {
   border-color: greenyellow;
   border-radius: 10px;
   height: 500px;
-  color: black;
+  color: whitesmoke;
+}
+.nav-link {
+  color: white;
 }
 .prod-image {
   background-color: transparent;

@@ -10,6 +10,53 @@ const Portfolio = () => {
             <div class="card">
               <div class="card-body">
                 <div className="card-image mb-2"></div>
+                <h5 class="card-title">Admin Dashboard</h5>
+                <p class="card-text">
+                  Django, MongoDB, React, Redux and Material UI
+                </p>
+                <spane className="row">
+                  <a
+                    href="https://github.com/AmarTauqeer/MaterialDashboard"
+                    class="nav-link col"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+
+                  <a
+                    href="https://drive.google.com/file/d/1V1clK5AGpzpjrLwYaVHSy-Jy3FOBBmWo/view"
+                    class="nav-link col"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Video-1
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1XtRr2bIkczCGt8XIKzvYsGpjOwCWGHPN/view"
+                    class="nav-link col"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Video-2
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1sVWNYi4foQtsGU2p8tm6TcFAyDBd5urH/view"
+                    class="nav-link col"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Video-3
+                  </a>
+                </spane>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-3 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <div className="card-image mb-2"></div>
                 <h5 class="card-title">MERN-Full-Stack Part-I</h5>
                 <p class="card-text">
                   Order management system using React, Express, Node, MongoDB

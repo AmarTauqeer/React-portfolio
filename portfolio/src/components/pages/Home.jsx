@@ -12,7 +12,6 @@ const Home = () => {
             <img src={photo} alt="" className="photo" />
           </div>
           <div className="col-sm-8">
-            {" "}
             <p className="paragraph-text">
               Welcome to my portfolio site. My name is Amar Tauqeer and I am
               working as a researcher at University of Innsbruck. My research
