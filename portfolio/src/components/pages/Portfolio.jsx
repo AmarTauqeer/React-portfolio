@@ -57,6 +57,36 @@ const Portfolio = () => {
             <div class="card">
               <div class="card-body">
                 <div className="card-image mb-2"></div>
+                <h5 class="card-title">Admin Dashboard (with Bootstrap)</h5>
+                <p class="card-text">
+                  Django, MongoDB, React, Redux and Bootstrap
+                </p>
+                <spane className="row">
+                  <a
+                    href="https://github.com/AmarTauqeer/Dashboard"
+                    class="nav-link col"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+
+                  <a
+                    href="https://drive.google.com/file/d/1Vqun4qBkqQB9Z_r2Q3u5DWKVdJJrSG3b/view"
+                    class="nav-link col"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Video
+                  </a>
+                </spane>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <div className="card-image mb-2"></div>
                 <h5 class="card-title">MERN-Full-Stack Part-I</h5>
                 <p class="card-text">
                   Order management system using React, Express, Node, MongoDB
