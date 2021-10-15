@@ -57,6 +57,35 @@ const Portfolio = () => {
             <div class="card">
               <div class="card-body">
                 <div className="card-image mb-2"></div>
+                <h5 class="card-title">Professional Dashboard</h5>
+                <p class="card-text">Django, React and Material UI</p>
+                <spane className="row">
+                  <a
+                    href="https://github.com/AmarTauqeer/ProfessionalDashboard"
+                    class="nav-link col"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+
+                  <a
+                    href="https://drive.google.com/file/d/1KDtpI48J0KzMkjz9p7wi3L3vOdv0wMvy/view"
+                    class="nav-link col"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Video
+                  </a>
+                </spane>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-3 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <div className="card-image mb-2"></div>
                 <h5 class="card-title">Admin Dashboard (with Bootstrap)</h5>
                 <p class="card-text">
                   Django, MongoDB, React, Redux and Bootstrap
